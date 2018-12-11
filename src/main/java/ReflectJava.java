@@ -30,7 +30,7 @@ public class ReflectJava {
                 }
             }
         } catch (Exception e) {
-            System.out.println("Oops.. Encounter an issue while parsing jar" + e.toString());
+            System.out.println("Oops.. Encounter an issue while parsing jar " + e.getMessage());
         }
         return listofClasses;
     }
